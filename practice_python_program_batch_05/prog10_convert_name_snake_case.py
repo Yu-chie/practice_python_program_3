@@ -4,6 +4,7 @@
 #Output: juan_dela_cruz
 
 #Ask User for name
+full_name = input("Enter your name: ")
 
 #Convert name to snake case
 
