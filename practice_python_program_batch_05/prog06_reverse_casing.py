@@ -10,3 +10,4 @@ full_name = input("Enter your name: ")
 reverse_case_name = full_name.swapcase()
 
 #print name
+print(reverse_case_name)
