@@ -10,3 +10,4 @@ full_name = input("Enter your name: ")
 snake_case_name = full_name.title().replace(" ", "_")
 
 #print name
+print(snake_case_name)
