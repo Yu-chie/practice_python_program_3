@@ -10,3 +10,4 @@ number = input("Enter a number: ")
 formatted_number = number.zfill(6)
 
 #Print number
+print(formatted_number)
