@@ -7,5 +7,6 @@
 full_name = input("Enter your Full Name: ")
 
 #Remove leading spaces
+clean_fullname = full_name.lstrip()
 
 #Print Name
