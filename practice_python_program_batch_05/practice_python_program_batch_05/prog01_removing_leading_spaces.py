@@ -10,3 +10,4 @@ full_name = input("Enter your Full Name: ")
 clean_fullname = full_name.lstrip()
 
 #Print Name
+print("Full name: ", clean_fullname)
