@@ -4,6 +4,7 @@
 #Output: 000143
 
 #Ask User for input number
+number = input("Enter a number: ")
 
 #Format number to siz digits
 
