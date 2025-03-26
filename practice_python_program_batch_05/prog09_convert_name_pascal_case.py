@@ -10,3 +10,4 @@ full_name = input("Enter your name: ")
 pascal_case_name = full_name.title().replace(" ", "")
 
 #Print name
+print(pascal_case_name)
