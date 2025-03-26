@@ -7,5 +7,6 @@
 full_name = input("Enter your name: ")
 
 #Make name all Uppercase
+uppercase_name = full_name.upper()
 
 #Print name
