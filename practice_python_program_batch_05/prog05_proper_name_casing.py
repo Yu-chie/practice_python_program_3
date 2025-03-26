@@ -4,6 +4,7 @@
 #Output: Juan Dela Cruz
 
 #Ask User for name
+full_name = input("Enter your name: ")
 
 #Correct name casing
 
