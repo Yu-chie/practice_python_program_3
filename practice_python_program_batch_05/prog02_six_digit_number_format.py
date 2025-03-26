@@ -7,5 +7,6 @@
 number = input("Enter a number: ")
 
 #Format number to siz digits
+formatted_number = number.zfill(6)
 
 #Print number
