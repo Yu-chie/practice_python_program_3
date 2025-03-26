@@ -10,3 +10,4 @@ full_name = input("Enter your name: ")
 proper_case_name = full_name.title()
 
 #Print name
+print(proper_case_name)
