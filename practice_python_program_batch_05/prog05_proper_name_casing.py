@@ -7,5 +7,6 @@
 full_name = input("Enter your name: ")
 
 #Correct name casing
+proper_case_name = full_name.title()
 
 #Print name
