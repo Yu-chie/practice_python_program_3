@@ -4,6 +4,7 @@
 #Output: juan dela cruz
 
 #Ask User for Name
+full_name = input("Enter your name: ")
 
 #Make name lowercase
 
