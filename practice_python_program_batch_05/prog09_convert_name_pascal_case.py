@@ -4,6 +4,7 @@
 #Output: JuanDelaCruz
 
 #Ask User for name
+full_name = input("Enter your name: ")
 
 #Convert name to pascal case
 
