@@ -7,5 +7,6 @@
 full_name = input("Enter your name: ")
 
 #Convert name to snake case
+snake_case_name = full_name.title().replace(" ", "_")
 
 #print name
