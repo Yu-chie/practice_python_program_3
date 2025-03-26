@@ -7,5 +7,6 @@
 statement = input("Enter a statement: ")
 
 #Count number of words
+word_count = len(statement.split())
 
 #Print number of words
