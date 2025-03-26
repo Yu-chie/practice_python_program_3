@@ -7,5 +7,6 @@
 full_name = input("Enter your name: ")
 
 #Count characters in name
+character_count = len(full_name)
 
 #print number of characters
