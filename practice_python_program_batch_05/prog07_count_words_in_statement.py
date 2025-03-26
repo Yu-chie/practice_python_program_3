@@ -4,6 +4,7 @@
 #Output: 14
 
 #Ask User for a statement
+statement = input("Enter a statement: ")
 
 #Count number of words
 
