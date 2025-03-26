@@ -4,6 +4,7 @@
 #Output: 14
 
 #Ask User for name
+full_name = input("Enter your name: ")
 
 #Count characters in name
 
