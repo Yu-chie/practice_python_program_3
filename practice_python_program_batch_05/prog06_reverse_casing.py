@@ -7,5 +7,6 @@
 full_name = input("Enter your name: ")
 
 #Reverse name casing
+reverse_case_name = full_name.swapcase()
 
 #print name
