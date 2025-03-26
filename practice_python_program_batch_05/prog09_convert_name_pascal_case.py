@@ -7,5 +7,6 @@
 full_name = input("Enter your name: ")
 
 #Convert name to pascal case
+pascal_case_name = full_name.title().replace(" ", "")
 
 #Print name
