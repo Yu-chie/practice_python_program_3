@@ -4,6 +4,7 @@
     #Output: Juan Dela Cruz
 
 #Ask User to input their Name
+full_name = input("Enter your Full Name: ")
 
 #Remove leading spaces
 
