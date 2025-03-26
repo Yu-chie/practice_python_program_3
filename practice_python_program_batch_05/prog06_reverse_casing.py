@@ -3,7 +3,8 @@
 #Input: jUAn DEla CrUZ
 #Output: JuaN deLA cRuz
 
-#Adk User for name
+#Ask User for name
+full_name = input("Enter your name: ")
 
 #Reverse name casing
 
