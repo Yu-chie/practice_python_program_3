@@ -10,3 +10,4 @@ full_name = input("Enter your name: ")
 lowercase_name = full_name.lower()
 
 #Print name
+print(lowercase_name)
