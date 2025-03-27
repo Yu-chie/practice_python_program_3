@@ -4,5 +4,8 @@
 text = input("Enter a text with leading spaces: ")
 
 #Find index of first non-space characters
+index = 0
+while index < len(text) and text[index] == " ":
+    index += 1
 
 #Extract and print clean string()
