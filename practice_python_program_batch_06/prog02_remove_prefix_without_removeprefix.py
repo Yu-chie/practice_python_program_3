@@ -9,3 +9,4 @@ if text [:len(prefix)] == prefix:
     text = text[len(prefix): ]          #Remove prefix
 
 #Print modified text
+print(text)
