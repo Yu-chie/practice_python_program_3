@@ -9,3 +9,5 @@ while index < len(text) and text[index] == " ":
     index += 1
 
 #Extract and print clean string()
+cleaned_text = text[index:]
+print(cleaned_text)
