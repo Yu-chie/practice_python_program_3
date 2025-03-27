@@ -4,8 +4,8 @@
 text = input("Enter a text: ")
 prefix = input("Enter prefix to remove: ")
 
-#Check if text starts with the prefix()
-
-#Remove prefix
+#Check if text starts with the prefix
+if text [:len(prefix)] == prefix:
+    text = text[len(prefix): ]          #Remove prefix
 
 #Print modified text
