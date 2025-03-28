@@ -2,6 +2,7 @@
 #Create a program that do the same functionality without using swapcase() function.
 
 #Ask User to enter text
+text = input("Enter a string: ")
 
 #Loop through each character and swap its case
 
