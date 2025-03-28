@@ -10,3 +10,4 @@ if len(text) < justify_length:
     text += " " * (justify_length - len(text))
 
 #Print the result
+print(text)
