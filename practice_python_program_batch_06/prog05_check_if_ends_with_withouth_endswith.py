@@ -11,8 +11,6 @@ extracted_string = text[-(suffix_length):]
 
 #Compare last characters of text with suffix
 if suffix == extracted_string:
-    print()
+    print(True)         #Print Result
 else:
-    print()
-
-#Print the result
+    print(False)         #Print Result
