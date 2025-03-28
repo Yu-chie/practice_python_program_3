@@ -6,7 +6,8 @@ text = input("Enter a text: ")
 suffix = input("Enter a suffix to check: ")
 
 #Get the length of the suffix
-
+suffix_length = len(suffix)
+extracted_string = text[-(suffix_length):]
 
 #Compare last characters of text with suffix
 
