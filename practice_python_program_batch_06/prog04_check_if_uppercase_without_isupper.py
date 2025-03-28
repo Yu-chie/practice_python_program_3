@@ -2,6 +2,7 @@
 #Create a program that do the same functionality without using isupper() function.
 
 #Ask User for text
+text = input("Enter a Text; ")
 
 #Create a loop to iterate through each character
 
