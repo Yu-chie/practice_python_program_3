@@ -6,5 +6,7 @@ text = input("Enter a Text: ")
 justify_length = int(input("Enter length: "))
 
 #Calculate and append number of spaces to reach the total length.
+if len(text) < justify_length:
+    text += " " * (justify_length - len(text))
 
 #Print the result
