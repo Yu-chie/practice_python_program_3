@@ -5,5 +5,9 @@
 text = input("Enter a Text; ")
 
 #Create a loop to iterate through each character
+for char in text:
+    if "a" <= char <= "z":      #If lowercase is found
+        is_upper = False
+        break
 
 #Print the result
