@@ -2,6 +2,8 @@
 #Create a program that do the same functionality without using center() function.
 
 #Ask user to enter a text and length to center
+text = input("Enter a Text: ")
+center_length = int(input("Enter length: "))
 
 #Calculate spaced and center text
 
