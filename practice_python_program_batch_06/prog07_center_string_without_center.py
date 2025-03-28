@@ -13,3 +13,4 @@ if len(text) < center_length:
     text = " " * left_padding + text + " " * right_padding
 
 #Print centered string
+print(text)
