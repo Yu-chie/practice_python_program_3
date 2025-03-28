@@ -11,3 +11,4 @@ for char in text:
         break
 
 #Print the result
+print(is_upper)
