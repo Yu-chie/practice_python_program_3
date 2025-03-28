@@ -5,6 +5,11 @@
 text = input("Enter a Text: ")
 center_length = int(input("Enter length: "))
 
-#Calculate spaced and center text
+#Calculate spaces and center text
+if len(text) < center_length:
+    total_spaces = center_length - len(text)
+    left_padding = total_spaces // 2
+    right_padding = total_spaces - left_padding
+    text = " " * left_padding + text + " " * right_padding
 
 #Print centered string
