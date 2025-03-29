@@ -4,6 +4,17 @@
 #Ask User for text
 text = input("Enter a text: ")
 
-#Capitalize first letter and convert remaining to ascii_lowercase
+#Capitalize first letter and convert remaining to lowercase
+if text:
+    first_letter = text[0]
+    if "a" <= first_letter <= "z":
+        first_letter = chr(ord(first_letter) - 32)          #Convert 1st letter to ascii_uppercase
+        
+    rest_of_text = ""
+    for char in text[1:]:
+        if "A" <= first_letter <= "Z":
+            rest_of_text = chr(ord(first_letter) + 32) 
+        else:
+            rest_of_text += char
 
 #Print capitalized text
