@@ -18,3 +18,4 @@ if text:
             rest_of_text += char
 
 #Print capitalized text
+print(first_letter + rest_of_text)
