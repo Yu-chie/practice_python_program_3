@@ -14,4 +14,4 @@ for word in words:
         title_cased_words.append(title_word)
 
 #Print title cased text
-print("".join(title_cased_words))
+print(" ".join(title_cased_words))
