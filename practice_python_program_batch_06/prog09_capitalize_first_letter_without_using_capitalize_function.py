@@ -13,9 +13,9 @@ if text:
     rest_of_text = ""
     for char in text[1:]:
         if "A" <= first_letter <= "Z":
-            rest_of_text = chr(ord(first_letter) + 32) 
+            rest_of_text += chr(ord(char) + 32) 
         else:
             rest_of_text += char
 
-#Print capitalized text
-print(first_letter + rest_of_text)
+    #Print capitalized text
+    print(first_letter + rest_of_text)
