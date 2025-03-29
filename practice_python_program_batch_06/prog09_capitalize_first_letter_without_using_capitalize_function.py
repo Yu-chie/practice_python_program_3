@@ -2,6 +2,7 @@
 #Create a program that do the same functionality without using capitalize() function.
 
 #Ask User for text
+text = input("Enter a text: ")
 
 #Capitalize first letter and convert remaining to ascii_lowercase
 
