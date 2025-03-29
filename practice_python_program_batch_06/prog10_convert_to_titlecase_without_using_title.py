@@ -2,6 +2,7 @@
 #Create a program that do the same functionality without using title() function.
 
 #Ask User for text
+text = input("Enter a text: ")
 
 #Convert each word to title case
 
