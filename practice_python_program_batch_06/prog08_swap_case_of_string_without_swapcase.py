@@ -16,3 +16,4 @@ for char in text:
         case_swapped_text += char
 
 #Print swapped case text
+print(case_swapped_text)
