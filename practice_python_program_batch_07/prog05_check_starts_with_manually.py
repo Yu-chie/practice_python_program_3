@@ -9,3 +9,4 @@ prefix = input ("Enter prefix to check: ")
 starts_with = text[:len(prefix)] == prefix if len(prefix) <= len(text) else False
 
 #print result
+print(starts_with)
