@@ -2,6 +2,7 @@
 #Create a program that do the same functionality without using upper() function.
 
 #Ask User for text
+text = input("Enter a text: ")
 
 #Convert to uppercase Manually
 ## Check if lowercase
