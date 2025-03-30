@@ -4,7 +4,10 @@
 #Ask User for text
 text = input("Enter a text: ")
 
-#Find the first non-space character
+#Find the last non-space character
+last_char_index = len(text) -1
+while last_char_index >= 0 and text[last_char_index] == " ":
+    last_char_index -= 1
 
 #Extract string up to the last non space character
 
