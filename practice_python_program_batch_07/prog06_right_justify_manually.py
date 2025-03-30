@@ -13,3 +13,4 @@ spaces_needed = max(0, length - len(text))
 right_justified = " " * spaces_needed + text
 
 #Print result
+print(right_justified)
