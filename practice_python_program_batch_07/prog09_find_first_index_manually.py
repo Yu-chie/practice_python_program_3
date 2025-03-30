@@ -9,7 +9,7 @@ substring = input("Enter substring to find: ")
 index = -1
 for i in range(len(text)- len(substring) + 1):
     if text[i:i+len(substring)] == substring:
-        index = 1
+        index = i
         break
     
 #Print result
