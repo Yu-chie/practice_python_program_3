@@ -5,6 +5,11 @@
 text = input("Enter a text: ")
 substring = input("Enter substring to find: ")
 
-#Find index manually
+#Find index manually from the right
+index = -1
+for i in range(len(text) - len(substring), -1, -1):
+    if text[i:i+len(substring)] == substring:
+        index = i
+        break
 
 #Print result
