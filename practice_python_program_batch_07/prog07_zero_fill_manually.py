@@ -9,5 +9,6 @@ length = int(input("Enter total length: "))
 zeros_needed = max(0, length - len(num))
 
 #Add zeros
+zero_fill = "0" * zeros_needed + num
 
 #Print result
