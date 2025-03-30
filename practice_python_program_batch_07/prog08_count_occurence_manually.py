@@ -15,3 +15,4 @@ while index <= len(text) - len (substring):
     index += 1
 
 #Print result
+print(count)
