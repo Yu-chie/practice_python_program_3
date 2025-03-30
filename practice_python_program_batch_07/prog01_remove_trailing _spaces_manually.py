@@ -10,5 +10,6 @@ while last_char_index >= 0 and text[last_char_index] == " ":
     last_char_index -= 1
 
 #Extract string up to the last non space character
+cleaned_text = text[:last_char_index +1]
 
 #Print the cleaned text
