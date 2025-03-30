@@ -2,6 +2,8 @@
 #Create a program that do the same functionality without using removesuffix() function.
 
 #Ask User for text and suffix to remove
+text = input("Enter a text: ")
+suffix = input("Enter suffix to remove: ")
 
 #Check if text ends with the suffix
 
