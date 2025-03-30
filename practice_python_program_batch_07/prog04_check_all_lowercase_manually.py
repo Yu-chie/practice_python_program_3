@@ -8,7 +8,8 @@ text = input("Enter a text: ")
 all_lowercase = True
 for char in text:
     if "A" <= char <= "Z":      #If uppercase found
-        all_lower = False
+        all_lowercase = False
         break
 
 #Print result
+print(all_lowercase)
