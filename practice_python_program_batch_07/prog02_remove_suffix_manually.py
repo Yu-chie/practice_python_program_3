@@ -6,5 +6,7 @@ text = input("Enter a text: ")
 suffix = input("Enter suffix to remove: ")
 
 #Check if text ends with the suffix
+if text[-len(suffix):] == suffix and len(suffix) <= len(text):
+    text = text[:-len(suffix)]
 
 #Print result
