@@ -12,3 +12,4 @@ zeros_needed = max(0, length - len(num))
 zero_fill = "0" * zeros_needed + num
 
 #Print result
+print(zero_fill)
