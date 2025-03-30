@@ -5,8 +5,10 @@
 text = input("Enter a text: ")
 
 #Convert to uppercase Manually
-## Check if lowercase
-##Convert to uppercase
+uppercase_text = ""
+for char in text:
+    if "a" <= char <= "z":      # Check if lowercase   
+        uppercase_text += chr(ord(char) - 32)       # Convert to uppercase
 
 #Print uppercase text
 
