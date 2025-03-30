@@ -2,6 +2,7 @@
 #Create a program that do the same functionality without using islower() function.
 
 #Ask user for Text
+text = input("Enter a text: ")
 
 #Check if letters are lowercased manually
 
