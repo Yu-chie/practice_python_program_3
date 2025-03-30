@@ -13,3 +13,4 @@ while last_char_index >= 0 and text[last_char_index] == " ":
 cleaned_text = text[:last_char_index +1]
 
 #Print the cleaned text
+print(cleaned_text)
