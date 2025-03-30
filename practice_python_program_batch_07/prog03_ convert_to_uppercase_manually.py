@@ -9,6 +9,8 @@ uppercase_text = ""
 for char in text:
     if "a" <= char <= "z":      # Check if lowercase   
         uppercase_text += chr(ord(char) - 32)       # Convert to uppercase
-
+    else:
+        uppercase_text += char
+        
 #Print uppercase text
 
