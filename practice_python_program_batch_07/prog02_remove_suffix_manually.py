@@ -10,3 +10,4 @@ if text[-len(suffix):] == suffix and len(suffix) <= len(text):
     text = text[:-len(suffix)]
 
 #Print result
+print(text)
