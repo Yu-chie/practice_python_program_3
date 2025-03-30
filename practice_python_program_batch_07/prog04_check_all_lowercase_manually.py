@@ -5,5 +5,10 @@
 text = input("Enter a text: ")
 
 #Check if letters are lowercased manually
+all_lowercase = True
+for char in text:
+    if "A" <= char <= "Z":      #If uppercase found
+        all_lower = False
+        break
 
 #Print result
