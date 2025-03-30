@@ -6,5 +6,6 @@ text = input("Enter a text: ")
 prefix = input ("Enter prefix to check: ")
 
 #Check if text starts with prefix
+starts_with = text[:len(prefix)] == prefix if len(prefix) <= len(text) else False
 
 #print result
