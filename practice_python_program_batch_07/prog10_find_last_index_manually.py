@@ -13,3 +13,4 @@ for i in range(len(text) - len(substring), -1, -1):
         break
 
 #Print result
+print(index)
