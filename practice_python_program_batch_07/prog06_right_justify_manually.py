@@ -10,5 +10,6 @@ length = int(input("Enter total width: "))
 spaces_needed = max(0, length - len(text))
 
 #Create right-justified text 
+right_justified = " " * spaces_needed + text
 
 #Print result
