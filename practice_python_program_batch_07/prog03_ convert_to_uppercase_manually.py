@@ -13,4 +13,5 @@ for char in text:
         uppercase_text += char
         
 #Print uppercase text
+print(uppercase_text)
 
